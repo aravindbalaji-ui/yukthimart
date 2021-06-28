@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Bootstrap All in One Navbar</title>
+<link href="https://fonts.googleapis.com/css?family=Merienda+One" rel="stylesheet">
+<link href="css/main.css" rel="stylesheet">
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<!-- JavaScript Bundle with Popper -->
+
+<link href="css/productview.css" rel="stylesheet">
+<style>
+  
+</style>
+</head> 
+<body>
+
+<!-- navigation bar -->
+
+<nav class="navbar navbar-default">
+  <div class="navbar-header">
+    <img src="images/logomenu.png" class="navbar-brand-logo" width="60px" height="45px">
+    <a class="navbar-brand" href="#">Yukthi<b>Mart</b></a>     
+    <button type="button" data-target="#navbarCollapse" data-toggle="collapse" class="navbar-toggle">
+      <span class="navbar-toggler-icon"></span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+    </button>
+  </div>
+  <!-- Collection of nav links, forms, and other content for toggling -->
+  <div id="navbarCollapse" class="collapse navbar-collapse">
+    <ul class="nav navbar-nav" >
+      <li class="active"><a href="#">Home</a></li>
+      <li><a href="#">Yukthi family</a></li>
+      <li class="dropdown">
+        <a data-toggle="dropdown" class="dropdown-toggle" href="#">Shop <b class="caret"></b></a>
+        <ul class="dropdown-menu">          
+          <li><a href="#">Handicrafts</a></li>
+          <li><a href="#">Fashion Accessories</a></li>
+          <li><a href="#">Art</a></li>
+          <li><a href="#">Gifts</a></li>
+          <li><a href="#">Food</a></li>
+        </ul>
+      </li>
+      <li><a href="#">Mission</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+    
+    </div>
+</nav>
+<!-- end of navigation bar -->
+
+<div class="rowdata1">
+
+            <div class="col col1">
+                <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="images/products/YC101/1.jpeg" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="images/products/YC101/4.jpeg" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="images/products/YC101/3.jpeg" class="d-block w-100" alt="...">
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
+
+            </div>
+            <div class="col col2">
+                <p class="newarrival text-center">NEW</p>
+                <h2>Black bag for women</h2> 
+                <p>Product code:YC101</p>
+                <p class="price">Rs 1200</p>
+                <label>Quantity :</label>
+                <input type="text" value="1">
+                <button type="button" class="btn btn-default cart"> Add to Cart</button>
+                <br>
+                <div class="colorlabel">
+                    <label for="color1">choose color 1</label>
+                    <input type="color" value="#ff0000" id="color1" class="colorinput"><br>
+                    <label for="color2">choose color 2</label>
+                    <input type="color" value="#ff0000" id="color2" class="colorinput"><br>
+                    <label for="color3">choose color 3</label>
+                    <input type="color" value="#ff0000" id="color3" class="colorinput">
+                </div>
+            </div>
+
+
+        <!-- </div> -->
+    </div>
+
+
+</body>
+</html>                            

@@ -1,0 +1,218 @@
+* {
+    box-sizing: border-box;
+  }
+
+
+/*navigation css*/
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+.topnav .icon {
+  display: none;
+}
+
+
+  
+  /* Create two equal columns that floats next to each other */
+  .col{
+    float: left;
+    width: 50% ;
+  }
+  .rowdata1:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+.rowdata1{
+    margin-top: 15px;
+    margin-left: 20px;
+    
+   
+}
+
+
+.newarrival{
+    background-color: green;
+    width: 50px;
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+}
+.col1 img{
+    height: 400px;
+    
+}
+.col2{
+    padding-left: 50px;
+}
+.col2 h2{
+    color: #555;
+}
+
+.price{
+    color: #fe9805;
+    font-size: 26px;
+    font-weight: bold;
+    padding-top: 20px;
+}
+input{
+    border: 1px solid #ccc;
+    font-weight: bold;
+    text-align: center;
+    height: 33px;
+    width: 30px;  
+} 
+
+.buttoncir:hover {
+
+   background-color: #4CAF50;
+  color: white;
+
+}
+.buttoncir{
+
+         background-color: #ffffff; /* Green */
+  border: 1px solid red;
+  color: black;
+  font-weight: bold;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  border-radius: 50%;
+      }
+
+.buttonsm{
+    border: 2px solid green;
+}
+
+.sizebutton{
+    text-align: left;
+
+}
+.cart{
+    background: rgb(6, 194, 100) !important;
+    color: #ffffff;
+    font-size: 15px;
+    margin-left: 30px;
+}  
+.colorlabel{
+    padding-top: 10px;
+    padding-left: 30px;;
+}
+.colorinput{
+    margin: .4rem;
+    height: 15px;
+}
+
+@media screen and (max-width: 600px) {
+
+    .topnav a:not(:first-child) {display: none;}
+  .topnav a.icon {
+    float: right;
+    display: block;
+    color: #fffff;
+    }
+    
+    .topnav.responsive {position: relative;}
+  .topnav.responsive a.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+    .rowdata1{
+        margin-left: 0px;
+    }
+  
+    .col{
+        
+        width: 100% ;
+        
+      }
+
+      .col1 img{
+          height: 300px;
+      }
+
+      .col2{
+          margin-top: 10px;
+      }
+      .col2 h2{
+        text-align: center;
+        margin-left: 0px;
+      }
+
+      .pc{
+        text-align: center;
+      }
+      .newarrival{
+        display: none;
+      }
+
+      .price{
+          margin-top: 2px;
+          padding-top: 0px;
+          text-align: center;
+      }
+
+      
+.sizebutton{
+    text-align: left;
+
+}
+
+
+      .cart{
+        /*margin-left: 100px;*/
+        float: right;
+        margin-right: 50px;
+      }
+      .colorlabel{
+        text-align: center;
+        margin-left: -50px;
+      }
+      .productdescription{
+        text-align: center;
+        padding-right: 50px;
+
+      }
+       .productdescriptionp{
+        margin-left: -10px;
+
+       } 
+
+
+}
